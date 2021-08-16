@@ -1,0 +1,9 @@
+provider "azurerm" {
+  features {}
+  skip_provider_registration = true
+  environment     = "public"
+  subscription_id = ""
+  client_id = ""
+  client_secret = ""
+  tenant_id = ""
+}
